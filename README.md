@@ -1,5 +1,5 @@
 ## Introduction
-This is the solution for the Logs Analysis project in Udacity Full Stack Nanodegree course. In this, we have to execute complex queries on a large database to extract intersting stats.
+This is the solution for [the Logs Analysis project](https://github.com/cangir-education/udacity-fsnd-logs-analysis/docs/assignment.md) in Udacity Full Stack Nanodegree course. In this, we have to execute complex queries on a large database to extract intersting stats.
 
 ![log Analysis preview](https://github.com/cangir-education/udacity-fsnd-logs-analysis/blob/master/screenshot.png)
 
@@ -20,7 +20,7 @@ This project uses Python3 to interact with a PostgreSQL database containing info
 ## Instructions
 1. If you don't already have the latest version of python download it from the link in requirements.
 2. Download and install Vagrant and VirtualBox.
-3. [Clone](https://github.com/cangir-education/udacity-fsnd-logs-analysis) this repository.
+3. Clone this repository.
 4. Download the [newsdata.sql](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) database.
 5. Navigate to the `udacity-fsnd-logs-analysis` folder in your bash interface.
 6. Open Git Bash and launch the virtual machine with command `vagrant up`
