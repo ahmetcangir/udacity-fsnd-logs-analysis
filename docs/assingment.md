@@ -22,9 +22,9 @@ Here are the questions the reporting tool should answer. The example answers giv
 
 # Good coding practices
 ## SQL style
-Each one of these questions can be answered with a single database query. Your code should get the database to do the heavy lifting by using joins, aggregations, and the where clause to extract just the information you need, doing minimal "post-processing" in the Python code itself.
+Each one of these questions can be answered with a single database query. Your code should get the database to do the heavy lifting by using joins, aggregations, and the `where` clause to extract just the information you need, doing minimal "post-processing" in the Python code itself.
 
 In building this tool, you may find it useful to add views to the database. You are allowed and encouraged to do this! However, if you create views, make sure to put the create view commands you used into your lab's README file so your reviewer will know how to recreate them.
 
-##Python code quality
-Your code should be written with good Python style. The PEP8 style guide is an excellent standard to follow. You can do a quick check using the pep8 command-line tool.
+## Python code quality
+Your code should be written with good Python style. The PEP8 style guide is an excellent standard to follow. You can do a quick check using the [pep8](https://www.python.org/dev/peps/pep-0008/) command-line tool.
