@@ -1,5 +1,5 @@
 ## Introduction
-This is the solution for [the Logs Analysis project](https://github.com/cangir-education/udacity-fsnd-logs-analysis/docs/assignment.md) in Udacity Full Stack Nanodegree course. In this, we have to execute complex queries on a large database to extract intersting stats.
+This is the solution for [the Logs Analysis project](https://github.com/cangir-education/udacity-fsnd-logs-analysis/blob/master/docs/assingment.md) in Udacity Full Stack Nanodegree course. In this, we have to execute complex queries on a large database to extract intersting stats.
 
 ![log Analysis preview](https://github.com/cangir-education/udacity-fsnd-logs-analysis/blob/master/screenshot.png)
 
