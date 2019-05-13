@@ -63,29 +63,31 @@ query_3 = """select error_rates.day, error_rates.rate AS error_rate
     where error_rates.rate > 0.01;
     """
 
+print("# LOGS ANALYSIS \n\r")
+
 
 def top_three_articles():
-    '''Print the top three articles of all time'''
-    print("The most popular three articles of all time:")
+    print("## The most popular three articles of all time:")
     query = query_db(query_1)
     for title, num in query:
         print(" - \"{}\" -- {} views".format(title, num))
+    print()
 
 
 def top_authors():
-    '''Print the most popular article authors of all time.'''
-    print("The most popular article authors of all time:")
+    print("## The most popular article authors of all time:")
     query = query_db(query_2)
     for name, num in query:
         print(" - {} -- {} views".format(name, num))
+    print()
 
 
 def top_error_days():
     query = query_db(query_3)
-    '''Print the error days with more than %1 of requests.'''
-    print("The days on which more than 1% of requests lead to errors:")
+    print("## The days on which more than 1% of requests lead to errors:")
     for day, rate in query:
         print(" - {0:%B %d, %Y} — {1:.2%} views".format(day, rate))
+    print()
 
 
 if __name__ == '__main__':
