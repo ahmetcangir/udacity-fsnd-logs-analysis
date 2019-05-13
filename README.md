@@ -29,4 +29,7 @@ This project uses Python3 to interact with a PostgreSQL database containing info
 9. Unpack newsdata.zip into `udacity-fsnd-logs-analysis` folder.
 10. Load the database type psql -d news -f newsdata.sql
 11. Use command `python3 app.py` to run the python program that fetches query results.
-12. Use command `python3 app.py > output.md` to export results to an output.md file. 
+12. Use command `python3 app.py > output.md` to export results to an output.md file.
+
+## Troubleshooting
+If your command prompt does not start with vagrant after typing `vagrant ssh` then please try the `winpty vagrant ssh` on your Windows system.
