@@ -1,7 +1,10 @@
 ## Introduction
 This is the solution for [the Logs Analysis project](https://github.com/cangir-education/udacity-fsnd-logs-analysis/blob/master/docs/assingment.md) in [Udacity Full Stack Nanodegree course](https://eu.udacity.com/course/full-stack-web-developer-nanodegree--nd004). In this, we have to execute complex queries on a large database to extract intersting stats.
 
-![log Analysis preview](https://github.com/cangir-education/udacity-fsnd-logs-analysis/blob/master/screenshot.png)
+## Preview
+![Log Analysis preview](https://github.com/cangir-education/udacity-fsnd-logs-analysis/blob/master/screenshot.png)()
+
+**[View Example Output](https://github.com/cangir-education/udacity-fsnd-logs-analysis/blob/master/output.md)**
 
 ## Project Overview
 This project uses Python3 to interact with a PostgreSQL database containing information from a newspaper site. The Python3 module [app.py](https://github.com/cangir-education/udacity-fsnd-logs-analysis/blob/master/app.py) is a reporting tool that creates a report that answers the following questions:
