@@ -1,7 +1,7 @@
 ## Introduction
 This is the solution for the Logs Analysis project in Udacity Full Stack Nanodegree course. In this, we have to execute complex queries on a large database to extract intersting stats.
 
-![log Analysis preview](https://cangir-education.github.io/udacity-fsnd-logs-analysis/screenshot.png)
+![log Analysis preview](https://github.com/cangir-education/udacity-fsnd-logs-analysis/blob/master/screenshot.png)
 
 ## Project Overview
 This project uses Python3 to interact with a PostgreSQL database containing information from a newspaper site. The Python3 module [app.py](https://github.com/cangir-education/udacity-fsnd-logs-analysis/blob/master/app.py) is a reporting tool that creates a report that answers the following questions:
