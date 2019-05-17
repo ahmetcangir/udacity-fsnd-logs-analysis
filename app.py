@@ -90,7 +90,11 @@ def top_error_days():
     print()
 
 
-if __name__ == '__main__':
+def main():
     top_three_articles()
     top_authors()
     top_error_days()
+
+
+if __name__ == "__main__":
+    main()
