@@ -1,12 +1,15 @@
 ## Introduction
+
 This is the solution for [the Logs Analysis project](https://github.com/cangir-education/udacity-fsnd-logs-analysis/blob/master/docs/assingment.md) in [Udacity Full Stack Nanodegree course](https://eu.udacity.com/course/full-stack-web-developer-nanodegree--nd004). In this, we have to execute complex queries on a large database to extract intersting stats.
 
 ## Preview
-![Log Analysis preview](https://github.com/cangir-education/udacity-fsnd-logs-analysis/blob/master/screenshot.png)()
+
+![Log Analysis preview](https://github.com/cangir-education/udacity-fsnd-logs-analysis/blob/master/screenshot.png)
 
 **[View Example Output](https://github.com/cangir-education/udacity-fsnd-logs-analysis/blob/master/output.md)**
 
 ## Project Overview
+
 This project uses Python3 to interact with a PostgreSQL database containing information from a newspaper site. The Python3 module [app.py](https://github.com/cangir-education/udacity-fsnd-logs-analysis/blob/master/app.py) is a reporting tool that creates a report that answers the following questions:
 
 - What are the most popular three articles of all time?
@@ -14,13 +17,14 @@ This project uses Python3 to interact with a PostgreSQL database containing info
 - On which days did more than 1% of requests lead to errors?
 
 ## Requirements
+
 - [Python 3](https://www.python.org/downloads/) - The code uses ver 3.7.3
 - [VirtualBox](https://www.virtualbox.org/) - An open source virtualiztion product.
 - [Vagrant](https://www.vagrantup.com/) - A virtual environment builder and manager
 - [newsdata.sql](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) - The data provided by Udacity
 
-
 ## Instructions
+
 1. If you don't already have the latest version of python download it from the link in requirements.
 2. Download and install Vagrant and VirtualBox.
 3. Clone this repository.
@@ -36,4 +40,5 @@ This project uses Python3 to interact with a PostgreSQL database containing info
 13. Use command `python3 app.py > output.txt` to export results to a plain [output.txt](https://github.com/cangir-education/udacity-fsnd-logs-analysis/blob/master/output.txt) file.
 
 ## Troubleshooting
+
 If your command prompt does not start with vagrant after typing `vagrant ssh` then please try the `winpty vagrant ssh` on your Windows system.
