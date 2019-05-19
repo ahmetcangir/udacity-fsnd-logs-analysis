@@ -30,11 +30,11 @@ This project uses Python3 to interact with a PostgreSQL database containing info
 3. Clone this repository.
 4. Download the [newsdata.sql](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip) database.
 5. Navigate to the `udacity-fsnd-logs-analysis` folder in your bash interface.
-6. Open Git Bash and launch the virtual machine with command `vagrant up`
+6. Open bash terminal and launch the virtual machine with command `vagrant up`
 7. Once Vagrant installs necessary files use `vagrant ssh` to continue.
 8. The command line will now start with vagrant. Here get into to the shared /vagrant folder by command `cd /vagrant`.
 9. Unpack newsdata.zip into `udacity-fsnd-logs-analysis` folder.
-10. Load the database type psql -d news -f newsdata.sql
+10. Load the database type `psql -d news -f newsdata.sql`
 11. Use command `python3 app.py` to run the python program that fetches query results.
 12. Use command `python3 app.py > output.md` to export results to an [output.md](https://github.com/cangir-education/udacity-fsnd-logs-analysis/blob/master/output.md) file.
 13. Use command `python3 app.py > output.txt` to export results to a plain [output.txt](https://github.com/cangir-education/udacity-fsnd-logs-analysis/blob/master/output.txt) file.
